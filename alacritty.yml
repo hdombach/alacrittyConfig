@@ -1,10 +1,24 @@
 font:
+  size: 12.0
   normal:
-    family: Hack Nerd font
-    style: Regular
+    family: "Hack Nerd Font"
+    style: "Regular"
+  italic:
+    family: "Hack Nerd Font"
+    style: "Bold"
+  bold:
+    family: "Hack Nerd Font"
+    style: "Italic"
+  bold_italic:
+    family: "Hack Nerd Font"
+    style: "Bold Italic"
 
 window:
-  decorations: full 
+  decorations: none
+  startup_mode: Maximized
+
+scrolling:
+  multiplier: 1
 
 # Base16 Gruvbox dark, hard 256 - alacritty color config
 # Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
